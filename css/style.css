@@ -124,6 +124,23 @@ html{
     transition: all 0.6s ease 0s;
 
 }
+/* About Us section */
+#about-us{
+    text-align: center;
+
+}
+#about-us h1{
+    color:rgb(0, 0, 0);
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    margin-top: 33px;
+}
+#about-us p{
+    color:rgb(0, 0, 0);
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    margin-top: 17px;
+}
 
 /* Services Section */
 #services{
