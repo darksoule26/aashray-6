@@ -114,7 +114,7 @@ html{
     color: white;
     margin: 17px;
     font-size: 1.5rem;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor:pointer;
 }
 .btn:hover{
