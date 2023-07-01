@@ -35,20 +35,34 @@ html{
 
 /* Navigation Bar: Logo and Image */
 #logo{
-    margin: 10px 34px;
+    /* margin: 10px 34px; */
     z-index: 2;
 }
 
 #logo img{
     height: 59px;
     margin: 3px 6px;
+    margin: 10px 34px;
 }
-
 
 /* Navigation Bar: List Styling */
 
+#navbar p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    margin-right: 650px;
+}
+
 #navbar ul{
     display: flex;
+    
     font-family: 'Baloo Bhai', cursive;
     z-index: 2;
 }

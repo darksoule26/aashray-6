@@ -2,7 +2,13 @@
 #navbar {
     flex-direction: column;
 }
-
+#navbar p{
+    font-size: 1.3rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    margin-right: 0%;
+    
+}
 #navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
@@ -22,6 +28,16 @@
     font-size: 13px;
 }
 
+/* about-us */
+#about-us{
+    flex-direction: column;
+}
+#about-us h1{
+    font-size:26px;
+}
+#about-us p{
+    font-size: 13px;
+}
 /* Services section  */
 #services{
     flex-direction: column;
