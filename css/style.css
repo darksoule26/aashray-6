@@ -141,6 +141,8 @@ html{
 /* About Us section */
 #about-us{
     text-align: center;
+    padding:3px 200px;
+
 
 }
 #about-us h1{

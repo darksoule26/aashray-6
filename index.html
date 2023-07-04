@@ -30,13 +30,13 @@
         <h1 class="h-primary">Give Hope to Homeless..!</h1>
         <p>Support Aashray to help the poor Homeless and provide them with a Better life. </p>
         <p>✨...Your one click can change someone's life...✨ </p>
-        <button class="btn">Camera</button>
+        <a href="login.html"><button class="btn">Get started</button></a>
     </section>
 
     <section id="about-us">
         <h1 class="h-about_us">About Us</h1>
         <div class="p-about_us">
-            <p>Add about us here</p>
+            <p>Aashray is a compassionate website dedicated to addressing homelessness in India. Our platform is designed to assist individuals in finding shelter by utilizing user-generated content. Users can capture photos of homeless individuals they encounter on the streets and submit them through our app or website. The information, along with the location, is then shared with nearby NGOs, enabling their teams to respond promptly and provide the necessary support. <br> Join us today and be a part of the movement to create lasting change in India!</p>
         </div>
     </section>
     
@@ -83,7 +83,7 @@
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
-            <form method="post" name="google-sheet">
+            <form method="post" name="google-sheet" autocomplete="off">
                 <div class="form-group">
                     <label for="name">Name: </label>
                     <input type="text" name="Name" id="name" placeholder="Enter your name">
@@ -120,7 +120,7 @@
         </div>
     </footer>
     <script>
-        const scriptURL = 'GOOGLE-SHEET-URL'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzdaxqNrsSRZpiMRT7c1xATwsw7PV_b8MXRx-XNocgMHmfC7yFGY2e-IWjaF4yJIqwRSg/exec'
         const form = document.forms['google-sheet']
       
         form.addEventListener('submit', e => {
