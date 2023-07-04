@@ -37,6 +37,7 @@
         <h1 class="h-about_us">About Us</h1>
         <div class="p-about_us">
             <p>Aashray is a compassionate website dedicated to addressing homelessness in India. Our platform is designed to assist individuals in finding shelter by utilizing user-generated content. Users can capture photos of homeless individuals they encounter on the streets and submit them through our app or website. The information, along with the location, is then shared with nearby NGOs, enabling their teams to respond promptly and provide the necessary support. <br> Join us today and be a part of the movement to create lasting change in India!</p>
+            <a href="about_us.html"><button class="about_btn">Know more about us</button></a>
         </div>
     </section>
     
@@ -83,7 +84,7 @@
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
-            <form method="post" name="google-sheet" autocomplete="off">
+            <form method="post" name="google-sheet" autocomplete="off" id="myForm">
                 <div class="form-group">
                     <label for="name">Name: </label>
                     <input type="text" name="Name" id="name" placeholder="Enter your name">
@@ -109,7 +110,7 @@
                     <textarea name="Message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <br>
-                <input type="submit" value="Submit" name="submit">
+                <input type="submit" value="Submit" name="submit" onclick="resetForm()">
             </form>
         </div>
     </section>
@@ -120,7 +121,7 @@
         </div>
     </footer>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzdaxqNrsSRZpiMRT7c1xATwsw7PV_b8MXRx-XNocgMHmfC7yFGY2e-IWjaF4yJIqwRSg/exec'
+        const scriptURL = 'GOOGLE-SHEET-ACCESS-URL'
         const form = document.forms['google-sheet']
       
         form.addEventListener('submit', e => {
@@ -128,7 +129,9 @@
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
             .catch(error => console.error('Error!', error.message))
+            document.getElementById("myForm").reset();
         })
+
       </script>
 </body>
 

@@ -157,6 +157,24 @@ html{
     font-size: 1.5rem;
     margin-top: 17px;
 }
+.about_btn{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 24px;
+    /* width: 200px; */
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.about_btn:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #000000;
+
+}
 
 /* Services Section */
 #services{
