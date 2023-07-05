@@ -1,4 +1,4 @@
-fetch('GOOGLE-SHEET-ACCESS-URL')
+fetch('GOOGLE-SHEET-API-URL')
   .then(response => response.json())
   .then(data => {
     const tableBody = document.querySelector('#data-table tbody');

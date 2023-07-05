@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.declaration-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.declaration-label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#preview {
+  max-width: 300px;
+  margin-top: 10px;
+  display: none;
+}
+
+/* Additional CSS for layout */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label,
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+}
+
+.form-group input[type="file"] {
+  display: inline-block;
+  width: auto;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container input[type="text"],
+.location-container button {
+  margin-right: 10px;
+}

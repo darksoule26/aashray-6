@@ -263,6 +263,8 @@ html{
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1.1rem;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 } 
 
 #contact-box form{
@@ -273,6 +275,12 @@ html{
    font-size: 1.3rem;
    font-family: 'Bree Serif', serif;
 
+}
+.submit-btn{
+    background-color: #000000;
+    color: rgb(247, 245, 245);
+    width: 200px;
+    
 }
 
 
