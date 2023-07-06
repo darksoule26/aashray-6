@@ -146,6 +146,7 @@ html{
 
 /* About Us section */
 #about-us{
+    background: url('../r.png') no-repeat center center/cover;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -159,13 +160,13 @@ html{
 
 }
 #about-us h1{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
     margin-top: 33px;
 }
 #about-us p{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 254, 254);
     font-family: 'Bree Serif', serif;
     font-size: 1.5rem;
     margin-top: 17px;
