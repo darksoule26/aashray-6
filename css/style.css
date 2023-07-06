@@ -56,13 +56,13 @@ html{
     cursor: pointer;
     z-index: 2;
     display: flex;
-    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Poppins', sans-serif, cursive;
-    margin-right: 650px;
+    font-family: 'Baloo Bhai',cursive;
+    margin-right: 40%;
 }
 
 #navbar ul{
     display: flex;
-    font-family: 'Baloo Bhai', 'Comic Sans MS', 'Poppins', sans-serif, cursive;
+    font-family: 'Baloo Bhai',cursive;
     z-index: 2;
 }
 
@@ -303,6 +303,10 @@ footer{
 /* Utility Classes */
 .h-primary-center{
     
+    text-align: center;
+}
+.h-primary{
+    font-size: 54px;
     text-align: center;
 }
 .h-secondary{
