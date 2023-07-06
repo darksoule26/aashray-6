@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(9.jpg);
 }
 body{
     min-height: 100vh;
@@ -12,9 +11,9 @@ body{
     background-color: #f1f1f1dd;
 }
 .about{
-    background: url(4.jpg) no-repeat left;
+    background: url(../img/1.jpg) no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfdd5;
+    /* background-color: #fdfdfdd5; */
     overflow: hidden;
     padding: 100px 0;
 }
