@@ -8,7 +8,7 @@
     <title>Aashray | Sign Up</title>
     <style>
         body {
-            background-color: rgba(91, 97, 97, 0.844);
+            background-color: rgb(34, 35, 35);
         }
     </style>
 </head>
@@ -28,7 +28,7 @@
             <i class='bx bx-lock-alt'></i>
         </div>
         <div class="input-field">
-            <input type="text" class="input" placeholder="Name" id="signupName">
+            <input type="text" class="input" placeholder="Name as per Aadhaar Card" id="signupName">
             <i class='bx bx-user'></i>
         </div>
         <div class="input-field">
@@ -64,6 +64,30 @@
       return;
     }
 
+    // Check if contact number has 10 digits
+    if (!/^\d{10}$/.test(contact)) {
+      alert("Please enter a valid 10-digit contact number.");
+      return;
+    }
+
+    // Check if Aadhaar card number has 12 digits
+    if (!/^\d{12}$/.test(aadhaar)) {
+      alert("Please enter a valid 12-digit Aadhaar card number.");
+      return;
+    }
+
+    // Check if name contains only letters
+    if (!/^[A-Za-z]+$/.test(name)) {
+      alert("Please enter a valid name (letters only).");
+      return;
+    }
+
+    // Check if address contains letters, numbers, and commas
+    if (!/^[a-zA-Z0-9, ]+$/.test(address)) {
+      alert("Please enter a valid address (letters, numbers, and commas only).");
+      return;
+    }
+
     // Retrieve existing users from localStorage or initialize an empty array
     var existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
@@ -81,7 +105,7 @@
     var newUser = {
       username: username,
       password: password,
-      name:name,
+      name: name,
       contact: contact,
       aadhaar: aadhaar,
       address: address

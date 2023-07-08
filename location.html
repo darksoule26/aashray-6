@@ -44,8 +44,8 @@
   </style>
 </head>
 <body>
-  <h1>AASHRAY</h1>
-  <h1>ONE CLICK CAN CHANGE SOMEONE'S LIFE</h1>
+  <!-- <h1>AASHRAY</h1> -->
+  <h1>Just One Click Can Change Someone's Life</h1>
 
   <form method="post" name="google-sheet" autocomplete="off" id="myForm">
     <div class="form-group">
@@ -119,7 +119,7 @@
       var latitude = position.coords.latitude;
       var longitude = position.coords.longitude;
       var locationInput = document.getElementById("location");
-      locationInput.value = "Latitude: " + latitude + ", Longitude: " + longitude;
+      locationInput.value = "http://www.google.com/maps/place/"+latitude + ","+longitude;
     }
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyMQIyqtMqdbEW-eIi6Oap2h9nezKVgBtyxc6MCNhYEKtjaZ7tJhdIs2bnftZeQeyWv-w/exec'
         const form = document.forms['google-sheet']
