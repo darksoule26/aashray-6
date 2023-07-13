@@ -40,7 +40,7 @@
             <i class='bx bx-id-card'></i>
         </div>
         <div class="input-field">
-            <textarea class="input" placeholder="Email ID" id="signupAddress"></textarea>
+            <input type="text" class="input" placeholder="Email ID" id="signupAddress">
             <i class='bx bx-home'></i>
         </div>
         <div class="input-field">
@@ -81,11 +81,16 @@
       alert("Please enter a valid name (letters only).");
       return;
     }
+    
 
     // Check if address contains letters, numbers, and commas
-    if (!/^[a-zA-Z0-9, ]+$/.test(address)) {
-      alert("Please enter a valid address (letters, numbers, and commas only).");
-      return;
+    // if (!/^[a-zA-Z0-9, ]+$/.test(address)) {
+    //   alert("Please enter a valid address (letters, numbers, and commas only).");
+    //   return;
+    // }
+    if (!/^[\w.-]+@[A-Za-z]+\.[A-Za-z]+$/.test(address)) {
+     alert("Please enter a valid email address.");
+     return;
     }
 
     // Retrieve existing users from localStorage or initialize an empty array
