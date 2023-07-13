@@ -84,6 +84,10 @@
     /* font-size: 14px; */ 
 }
 
+.sectionSubTag {
+    font-size: 13px;
+    white-space: normal;}
+
 /* Clients section */
 #clients{
     flex-wrap: wrap;
