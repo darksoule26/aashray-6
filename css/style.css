@@ -130,27 +130,27 @@ html{
 @keyframes change{
     0%
     {
-        background-image: url('../Screenshot\ 2023-07-09\ 152953.png');
+        background-image: url('../img/Screenshot\ 2023-07-09\ 152953.png');
     }
     20%
     {
-        background-image: url('../Screenshot\ 2023-07-07\ 215534.png');
+        background-image: url('../img/Screenshot\ 2023-07-07\ 215534.png');
     }
     40%
     {
-        background-image: url('../bg3.jpg');
+        background-image: url('../img/bg3.jpg');
     }
     60%
     {
-        background-image: url('../r.png');
+        background-image: url('../img/r.png');
     }
     80%
     {
-        background-image: url('../Screenshot\ 2023-07-09\ 152718.png');
+        background-image: url('../img/Screenshot\ 2023-07-09\ 152718.png');
     }
     100%
     {
-        background-image: url('../Screenshot\ 2023-07-09\ 152811.png');
+        background-image: url('../img/Screenshot\ 2023-07-09\ 152811.png');
     }
 }
 #home{
